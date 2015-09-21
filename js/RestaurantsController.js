@@ -8,7 +8,7 @@ bestRestaurants.controller('RestaurantsCtrl', function RestaurantsCtrl($scope) {
     $scope.restaurantAddress = null;
     $scope.restaurantPrice = null;
   };
-  $scope.deleteRestaurant = function(restuarant) {
+  $scope.deleteRestaurant = function(restaurant) {
     var index = $scope.restaurants.indexOf(restaurant);
     $scope.restaurants.splice(index, 1);
   }
