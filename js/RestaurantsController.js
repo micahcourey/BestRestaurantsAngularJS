@@ -1,4 +1,4 @@
-bestRestaurants.controller('RestaurantsCtrl', function StudentsCtrl($scope) {
+bestRestaurants.controller('RestaurantsCtrl', function RestaurantsCtrl($scope) {
   $scope.restaurants = [];
   $scope.addRestaurant = function() {
     $scope.restaurants.push({name: $scope.restaurantName})
